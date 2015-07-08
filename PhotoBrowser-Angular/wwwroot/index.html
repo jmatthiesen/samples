@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="photoBrowser">
 <head>
     <title></title>
 
@@ -7,10 +7,11 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
-    <div id="photos" class="container">
+<body ng-controller="list">
+    <div id="photos" class="container" ng-repeat="image in images">
+        <img ng-src="{{image}}" />
     </div>
     <script src="libs/angular/angular.min.js"></script>
-    <script src="app/app.js"></script>
+    <script src="app/all.js"></script>
 </body>
 </html>

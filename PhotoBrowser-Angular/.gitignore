@@ -1,1 +1,7 @@
+node_modules/*
 wwwroot/libs/*
+wwwroot/app/*
+.vs
+*.user
+*.lock.json
+*/bin/*
