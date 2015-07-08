@@ -1,0 +1,14 @@
+{
+  "name": "photobrowser",
+  "version": "0.0.0",
+  "description": "ERROR: No README data found!",
+  "scripts": {},
+  "author": "",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "~3.9.0",
+    "gulp-babel": "~5.1.0"
+  },
+  "devDependencies": {}
+}

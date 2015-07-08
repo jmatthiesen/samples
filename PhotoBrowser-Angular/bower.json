@@ -8,13 +8,16 @@
   "main": "index.html",
   "license": "MIT",
   "dependencies": {
-    
+    "angular": "~1.4.2",
+    "bootstrap": "~3.3.5"
   },
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
-    "tests"
-  ]
+    "tests",
+    "wwwroot/libs"
+  ],
+  "private": true
 }
